@@ -16,7 +16,8 @@ abstract class Model extends \TeamWorkPm\Model
             ],
             'isprivate'                => false,
             'author_id'                => false,
-            'pending_file_attachments' => false
+            'pending_file_attachments' => false,
+            'content-type'             => 'TEXT',
         ];
     }
 
